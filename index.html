@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi segunda web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola Beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Musica relajante</td>
+                <td>19,99</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz muy feliz</td>
+                <td>49,99</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>90.99$</td>
+        </tfoot>
+        
+    </table>
+    <!-- ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</l1>
+        <li>Elemento 2</l2>
+        <li>Elemento 3</l3>
+        <li>Elemento 3</l3>
+    </ul>
+    <!-- ol es lista no ordenada-->
+    <ol>
+        <li>Elemento 1</l1>
+        <li>Elemento 2</l2>
+        <li>Elemento 3</l3>
+        <li>Elemento 3</l3>
+            <li>
+                <ol>
+                    <li style="list-style-type: lower-greek;">Sub elemento 1</li>
+                    <li style="list-style-type: lower-roman;">Sub elemento 2</li>
+                    <li style="list-style-type: lower-alpha;">Sub elemento 3</li>
+                    <li style="list-style-type: lower-latin;">Sub elemento 4</li>
+                    <li style="list-style-type: lower-greek;">Sub elemento 5</li>
+                </ol>
+            </li>
+    </ol>
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input value="Bayron" type="text" id="nombre" name="nombre" placeholder="Nombre"  />
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="Jimenez" type="text" id="apellido" name="apellido" placeholder="Apellido">
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario">Valor por defecto</textarea>
+        <br>
+        <button type="button"><img src="img/imagen1.png" width="50">Tipo Botón</button>
+        <button type="reset">Tipo Reset</button>
+        <button type="submit">Tipo Submit</button>
+     </form>
+    <h1>Mi primer Heading</h1>
+    <h2>Mi segundo Heading</h2>
+    <h3>Mi tercer Heading</h3>
+    <h4>Mi cuarto Heading</h4>
+    <h5>Mi quinto Heading</h5>
+    <h6>Chanchito Feliz</h6>
+    <p>Chanchito feliz estta muy feliz</p>
+    <hr>
+    <h2>Chanchito felipe</h2>
+    <p>Este texto es <span style="color:blue">mas largo </span>
+    para poder mostrar <br> la etiquesta span!</p>
+    <!-- Este texto es un comentario y no va a aparecer en el explorador-->
+    <a target="_blank" href="https://www.google.com">Ir a Google</a>
+    <img src="img/imagen1.png" width="400"/>
+   </body>
+</html>
