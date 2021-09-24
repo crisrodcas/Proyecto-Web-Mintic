@@ -19,7 +19,7 @@ body{
     text-align: center;
 }
 .contenedor .elemento label{
-    color: #fff; 
+    color: #F6ED98; 
 }
 
 .contenedor .elemento input{
@@ -28,7 +28,7 @@ body{
     color: #fff;
     background: transparent;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     background: rgba(255,255,255, .1);
     border-bottom: 1px solid #F1E290;
 }
